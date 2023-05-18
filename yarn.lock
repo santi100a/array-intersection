@@ -619,6 +619,18 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@santi100/assertion-lib@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@santi100/assertion-lib/-/assertion-lib-1.0.8.tgz#549182e6eeaae693081532405af653920985513b"
+  integrity sha512-bgxIXipilU2ddeDyS6rZBLIr2aV4s9i323ajs1SCCWoIaRyGRDW31ZoKFeXOA/cJntwZFOD0AXopTcYti8nnjQ==
+  dependencies:
+    "@santi100/equal-lib" "^1.0.8"
+
+"@santi100/equal-lib@1.0.8", "@santi100/equal-lib@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@santi100/equal-lib/-/equal-lib-1.0.8.tgz#967f8ca71a6cfc02f416b110f8b697a1b6cfc6ea"
+  integrity sha512-8PKrb9Nrm/JTf6h7Att7dj7PzxxuDe3OJ6wIXq4PA0CWOXr91QFNB/VVvfmLKwjdN9pNgSyv2jKB7uXbk8HICg==
+
 "@sinclair/typebox@^0.25.16":
   version "0.25.24"
   resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.25.24.tgz#8c7688559979f7079aacaf31aa881c3aa410b718"

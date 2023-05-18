@@ -1,5 +1,5 @@
 {
-  "name": "@<author>/<package>",
+  "name": "@santi100/array-intersection",
   "version": "0.0.1",
   "main": "cjs/index.js",
   "module": "index.js",
@@ -15,11 +15,12 @@
     "prettier": "^2.8.7",
     "typescript": "^4.9.5"
   },
-  "author": "",
-  "description": "",
-  "keywords": [],
+  "author": "Santi <santyrojasprieto9+npmauthor@gmail.com>",
+  "description": "Santi's Array Intersection Library: Set theory applied!",
+  "keywords": ["array-intersection", "es3", "library", "santi100", "lightweight"],
   "repository": {
-    "url": "https://github.com/<author>/<repo>"
+    "url": "https://github.com/santi100a/array-intersection",
+    "type": "git"
   },
   "scripts": {
     "build": "tsc",
@@ -27,9 +28,17 @@
     "dev": "tsc -w",
     "prettify": "prettier --write src/**/*.ts",
     "lint": "eslint src/**/*.ts",
+    
+    "postbuild": "yarn esm-wrapper",
+    "prepublishOnly": "yarn validate-package-json",
+    
     "esm-wrapper": "node scripts/esm-wrapper.js",
     "validate-package-json": "node scripts/validate-package-json.js",
     "lint-fix": "eslint --fix src/**/*.ts",
     "test:watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "@santi100/assertion-lib": "^1.0.8",
+    "@santi100/equal-lib": "1.0.8"
   }
 }
