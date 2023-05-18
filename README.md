@@ -100,4 +100,4 @@ and make sure you follow the [contribution Code of Conduct](CODE_OF_CONDUCT.md).
 
 **Hasn't been tested in an actual ES3 environment. Feel free to open an issue or pull request if you find any non-ES3 thing. See "Contribute" for instructions on how to do so.*
 
-*^The source code is just a few kilobytes in size.*
+*^The source code is just a few kilobytes in size. Time and space complexity are yet to be measured.*
