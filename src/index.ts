@@ -43,5 +43,5 @@ export function deepArrayIntersection<T = unknown>(arr1: T[], arr2: T[]) {
 	for (const item of arr1) {
 		if (__deepIndexOf(arr2, item) !== -1) intersection.push(item);
 	}
-	return intersection;
+	return intersection; 
 }
