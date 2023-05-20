@@ -6,7 +6,7 @@
 [![License][license badge]][repo url]
 [![Bundlephobia stats][bundlephobia badge]][bundlephobia url]
 
-[workflow badge]: https://github.com/santi100a/array-intersection/actions/workflows/main.yml/badge.svg
+[workflow badge]: https://github.com/santi100a/array-intersection/actions/workflows/ci.yml/badge.svg
 [npm badge]: https://img.shields.io/npm/v/@santi100/array-intersection
 [stars badge]: https://img.shields.io/github/stars/santi100a/array-intersection.svg
 [license badge]: https://img.shields.io/github/license/santi100a/array-intersection.svg

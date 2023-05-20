@@ -6,6 +6,7 @@ on:
 
 jobs:
   say-hi:
+    continue-on-error: true
     permissions:
       pull-requests: write
       actions: write
@@ -24,9 +25,4 @@ jobs:
             https://github.com/${{ github.repository }}/blob/main/SECURITY.md) and [contribution guidelines
             ](https://github.com/${{ github.repository }}/blob/main/CONTRIBUTING.md) before contributing to 
             this repo.
-      - name: Complete workflow
-        uses: actions/github-script@v4
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            github.actions.setWorkflowRunConclusion("${{ github.run_id }}", "neutral")
+      
