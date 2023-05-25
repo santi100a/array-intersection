@@ -5,8 +5,8 @@
 In the interest of fostering an open and welcoming environment, as
 the maintainer, I pledge to make participation in my project and
 our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, level of experience, education, 
-socio-economic status, nationality, personal appearance, race, 
+size, disability, ethnicity, level of experience, education,
+socio-economic status, nationality, personal appearance, race,
 or religion.
 
 ## My Standards
@@ -60,6 +60,7 @@ All complaints will be reviewed and investigated promptly and fairly.
 
 I'm obligated to respect the privacy and security of the
 reporter of any incident.
+
 ## Enforcement Guidelines
 
 I will follow these Community Impact Guidelines in determining
@@ -112,11 +113,11 @@ This Code of Conduct is adapted from the [Contributor Covenant][homepage],
 version 2.0, available at
 <https://www.contributor-covenant.org/version/2/0/code_of_conduct.html>.
 
-Community Impact Guidelines were inspired by 
+Community Impact Guidelines were inspired by
 [Mozilla's code of conduct enforcement ladder][Mozilla CoC].
 
 For answers to common questions about this code of conduct, see the FAQ at
-<https://www.contributor-covenant.org/faq>. Translations are available 
+<https://www.contributor-covenant.org/faq>. Translations are available
 at <https://www.contributor-covenant.org/translations>.
 
 [homepage]: https://www.contributor-covenant.org

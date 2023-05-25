@@ -92,7 +92,7 @@ const objectIntersection = deepArrayIntersection(array3, array4); // => [{ bar: 
 
 ## Contribute
 
-Wanna contribute? [File an issue](issues) or [pull request](pulls)!
+Wanna contribute? [File an issue](https://github.com/santi100a/array-intersection/issues) or [pull request](https://github.com/santi100a/array-intersection/pulls)!
 Look at [the contribution instructions](CONTRIBUTING.md)
 and make sure you follow the [contribution Code of Conduct](CODE_OF_CONDUCT.md).
 
