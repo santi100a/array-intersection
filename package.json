@@ -41,6 +41,6 @@
   },
   "dependencies": {
     "@santi100/assertion-lib": "^1.0.8",
-    "@santi100/equal-lib": "1.0.8"
+    "@santi100/equal-lib": "1.0.9"
   }
 }
